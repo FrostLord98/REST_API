@@ -33,8 +33,10 @@ Asi se ve una solicitud de  /user con metodo put y el resultado de esta ruta ser
 En este caso se genera un token usando los nuevos datos del usuario registrado.
 
 Y finalmente tenemos la ruta /user con el metodo delete, que le permitira al usuario borrar su propia cuenta.
-La solicitud seria similar al /user con metodo get, ya que utiliza el token del usuario para autorizar el borrado de su cuenta.
+La solicitud seria similar al /user con metodo get, ya que utiliza el token del usuario para autorizar el borrado de su cuenta, y nos mostraria lo siguiente:
+{"payload":"success"}
 
+Esto nos indica que se elimino la cuenta con exito.
 
 
 
