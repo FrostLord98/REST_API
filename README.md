@@ -1,6 +1,6 @@
 Este repo contiene una REST API que permite realizar un CRUD si se tiene la autenticacion mediante JWT.
 
-Para iniciar la DB, que es PostgreSQL, se debe agregar un .env con los datos que solicita psycopg2 que son database, host, port, user, password y una variable key en el mismo .env que se utilizara como secret key para JWT
+Para iniciar la DB, que es PostgreSQL, se debe agregar un .env con los datos que solicita psycopg2 que son database, host, port, user, password y una variable key en el mismo .env que se utilizara como secret key para JWT, en este ejemplo se proveera con un .env en una base de datos en supabase que tiene los campos "id","username","password_hash","email" y "created_at". Los mismos campos deben ser creados en la nube de su preferencia si se va a usar esta API.
 
 Las rutas del CRUD son las siguientes:
 
