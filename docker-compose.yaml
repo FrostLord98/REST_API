@@ -1,0 +1,9 @@
+services:
+  web:
+    build: .
+    ports:
+      - "8000:5000"
+  postgres:
+    image: "postgres" 
+    environment:
+      - "POSTGRES_HOST_AUTH_METHOD=trust"
